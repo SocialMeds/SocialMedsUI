@@ -1,0 +1,199 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-image:url('/img/bg.png');
+	background-color:black;
+	background-repeat: no-repeat;
+	font-family: 'Avenir';
+}
+
+.container{
+	position:absolute;
+	max-width: 900px;
+	height: 500px;
+	margin:auto;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+
+}
+.myLeftctn{
+	position: relative;
+	background-image: url('/img/signin.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:100%;
+	padding:30px;
+	font-size: 14px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.myRightctn{
+	position: relative;
+	background:#ffffff;
+	height:100%;
+	padding: 25px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.myRightctn header{
+	font-size: 20px;
+	font-weight: 400;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+.row{
+	height:100%;
+
+}
+.myCard{
+	position: relative;
+	background:#fff;
+	height:100%;
+	box-shadow: 0px 10px 40px -10px (0,0,0,0.7);
+}
+.box{
+	position: relative;
+	margin:20px;
+	margin-bottom: 100px;
+}
+
+.myRightctn .form-control:focus{
+	border:3px solid blue;
+}
+#icon1{
+	background-image: url("/img/email.svg");
+	background-repeat: no-repeat;
+	background-position: 10px 12px;
+	text-indent: 40px;
+}
+#icon2{
+	background-image: url("/img/company.svg");
+	background-repeat: no-repeat;
+	background-position: 10px 11px;
+text-indent: 30px;
+}
+#icon3{
+	background-image: url("/img/password.svg");
+	background-repeat: no-repeat;
+	background-position: 10px 8px;
+	text-indent: 30px;
+	}
+.register-link{
+	text-decoration: none;
+	
+
+	
+	letter-spacing: 0px;
+color: #444148;
+opacity: 1;
+
+
+}
+.forget-link{
+	text-decoration: none;
+	
+	text-align: right;
+
+	font: normal normal normal 16px Avenir;
+	letter-spacing: 0px;
+color: #444148;
+opacity: 1;
+
+}
+.forget{
+	text-align: right;
+	width:90%;
+}
+.myForm button[type="submit"]{
+	margin-top: 38px;
+	margin-bottom: 20px;
+	height:40px;
+width: 90%;
+	border:none;
+	cursor: pointer;
+	background: #0091A3;
+	border-radius: 4px;
+	color:#ffffff;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: .1rem;
+	transition:0.5s;
+	padding-top: 4px;
+	padding-bottom: 12px;
+opacity:.88;}
+
+
+.myRightctn .input-field:focus{
+	border:3px solid blue;
+}
+h1{
+	text-decoration: underline;
+}
+label{
+	font-size:17px;
+	color: #444148;
+}
+.input-container select:focus{
+	border:3px solid red ;
+
+}
+
+.input-field {
+	font-size:17px;
+
+  outline: none;
+}
+input[type="email"]{
+	height:40px;
+	border: 1px solid #BABABA;
+	outline: none;
+	box-sizing: border-box;
+	
+	border-radius: 4px;
+
+	width: 90%;
+     color:black;
+    margin-bottom: 15px;
+
+
+}
+input[type="password"]{
+
+
+height:40px;
+	border: 1px solid #BABABA;
+	outline: none;
+	box-sizing: border-box;
+	
+	border-radius: 4px;
+
+	width: 90%;
+    color:black;
+    
+
+	background:transparent;
+}
+.password{
+	margin-top: 20px;
+}
+select {
+	color:black;
+	  border: 1px solid #BABABA ;
+	  outline:none;
+	  border-radius: 4px; 
+	  
+	    width:90%; 
+	    height: 40px; 
+	    padding-top: 2px;
+     font-family:avenir;
+     outline:none;
+}
+.register{
+	font-size: 20px;
+	color: #444148;
+}

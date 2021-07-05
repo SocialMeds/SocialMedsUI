@@ -1,0 +1,214 @@
+
+
+
+
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	height: 100vh;
+
+	background-color:slategray;
+
+	font-family: 'Avenir';
+	position: relative;
+	
+}
+
+
+.container{
+	height: 720px;
+	margin-right: 0;
+
+	
+
+}
+
+.card{
+	
+
+	background: #19181E 0% 0% no-repeat padding-box;
+border-radius: 10px;
+opacity: 1
+
+}
+
+.card .drag-area{
+
+	background-color: #2A292E;
+	 border: 2px dashed #EAEAEA;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+
+.drag-area{
+	height: 240px;
+
+
+}
+
+
+input[type=text]{
+	width: 80%;
+	height: 25px;
+	border: none;
+	margin-bottom: 15px;
+	color: Gray;
+
+}
+.card-right{
+	background-color:#2A292E ;
+	
+}
+
+input[type="file"]{
+	display: none;
+}
+.file-input label{
+	height: 100px;
+	width: 150px;
+	background-color: #2A292E;
+
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+/*.card-body{
+	margin-left:30px;
+}*/
+ button{
+ 	display:inline;
+
+	border-radius: 50px;
+	height: 33px;
+	
+color: #FFFFFF;
+
+
+}
+ .button #post{
+ 	margin-top: 0;
+	padding: 7px;
+	width: 120px;
+   border: none;
+   margin-right: 18px;
+   background: #1AA5AB;
+}
+ .button #schedule{
+
+	padding: 7px;
+   border: none;
+   width: 154px;
+   margin-right: 18px;
+   background: #006F74;
+   margin-top: 8px;
+}
+ .button #intelligent{
+	padding: 5px;
+	width: 172px;
+	 border: 1px solid #1AA5AB;
+   background:#2A292E;
+   margin-top: 8px;
+}
+
+.button{
+	margin-top: 15px;
+	padding-top: 10px;
+height: 120px;
+margin-bottom: 15px;
+
+	
+}
+.file-input{
+	height: 180px;
+	width: 170px;
+}
+.image-progress{
+	display: flex;
+
+	
+	height: 100px;
+	width: 100%;
+
+
+}
+.image-progress label{
+
+	margin-top:30px; ;
+	margin-left: 20px;
+	height: 30px;
+	
+
+
+}
+.progress{
+	
+	
+	margin-left: 40px;
+	margin-top: 40px;
+height: 10px;
+	width: 400px;
+	border-radius:0;
+}
+
+
+#edit{
+	margin-right: 10px;
+
+	float: right;
+	margin-top: 0px;
+	width: 200px;
+	height: 30px;
+	padding-top: 3px;
+	padding-bottom: 5px ;
+	
+	 border: 1px solid #1AA5AB;
+
+   background:#2A292E;
+
+}
+  .bootstrap-tagsinput{
+  	margin-bottom: 10px;
+  	height: 40px;
+            width: 90%;
+            background-color:#19181E ;
+            border: 1px solid gray;
+        }
+        .label-info{
+            background-color:black;
+            color: black;
+
+        }
+        .label {
+            display: inline-block;
+            padding: .25em .4em;
+            font-size: 75%;
+            font-weight: 700;
+            line-height: 1;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: baseline;
+            border-radius: 50px;
+            transition: color .15s ease-in-out,background-color .15s ease-in-out,
+            border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        }
+        .tag-input button{
+
+        	background-image:url("/img/add-white.svg");
+        	background-repeat: no-repeat;
+        	background-color: black;
+        	border: none;
+        	background-size: cover;
+        	height: 40px;
+        	width: 40px;
+        }

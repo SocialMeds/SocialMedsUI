@@ -1,0 +1,35 @@
+/* IE lte9 fixes */
+
+/* main sidebar */
+#sidebar_main {
+    -ms-transform: translateX(-240px);
+}
+@media only screen and (max-width: 767px) {
+    #sidebar_main {
+        -ms-transform: translateY(-280px);
+    }
+}
+
+.sidebar_main_active #sidebar_main,
+.sidebar_main_open #sidebar_main {
+    -ms-transform: translateY(0);
+}
+
+/* secondary sidebar */
+#sidebar_secondary {
+    -ms-transform: translateX(288px);
+}
+
+.sidebar_secondary_active #sidebar_secondary {
+    -ms-transform: translateX(0);
+}
+.logo_regular{
+	height:58px;
+	width:317px;
+}
+
+}
+.sidebar_main .menu_section >ul>li:hover{
+	border-left:5px solid white;
+    background-color: #2A292E
+}

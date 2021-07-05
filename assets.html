@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>assets page</title>
+
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+		<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1 ,shrink-to-fit=no">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-tagsinput/0.8.0/bootstrap-tagsinput.css" integrity="sha512-xmGTNt20S0t62wHLmQec2DauG9T+owP9e6VU8GigI0anN7OXLip9i7IwEhelasml2osdxX71XcYm6BQunTQeQg==" crossorigin="anonymous" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-tagsinput/0.8.0/bootstrap-tagsinput.js" integrity="sha512-VvWznBcyBJK71YKEKDMpZ0pCVxjNuKwApp4zLF3ul+CiflQi6aIJR+aZCP/qWsoFBA28avL5T5HA+RE+zrGQYg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-tagsinput/0.8.0/bootstrap-tagsinput-angular.min.js" integrity="sha512-KT0oYlhnDf0XQfjuCS/QIw4sjTHdkefv8rOJY5HHdNEZ6AmOh1DW/ZdSqpipe+2AEXym5D0khNu95Mtmw9VNKg==" crossorigin="anonymous"></script>
+
+	 
+  <link rel ="stylesheet" href="css/bootstrap.css">
+
+	<link rel="stylesheet" href="css/assets.css">
+
+
+   
+
+
+
+
+	</head>
+	<body><div class="container">
+		
+
+	<div class="row " style="margin-left: 0;margin-bottom: 0;">
+  <div class="col-md-7 ">
+    <div class="card card-left" style="margin-top: 0;">
+      <div class="card-body"style="height:710px;">
+        <h6 class="card-title text-white">Assets</h6>
+            <h6 class="card-title text-white">File Upload</h6>
+        
+        <div class="drag-area drag  " >
+
+        <div class="file-input text-white text-center" style="font-size:20px;">
+          <input type="file" id="file" accept="images/*">
+          <label for="file" style="color:white;">
+            <img src="img/whitebutton.svg" style="height:90px;width:60px;">
+</label>
+<span style="font-size: 15px; opacity:0.80">Drag  file to Upload</span>
+         </div>	
+
+        </div>
+        <label class="text-white" for="tagline">Tagline</label><br>
+        <input type="text" id="Tagline">
+        <h6 class="text-white mt-2">Hashtags</h6>
+        <p class="" style="font-size:13px;color:#ffffff; opacity:0.80;">Hashtags allows you to filter more efficiently on teh view section</p>
+
+
+          <div class="tag-input">
+                   
+                    <input type="text" data-role="tagsinput" name="tags" class="form-control ">
+                    <button></button>
+                </div>
+
+
+        <div class="button" >
+        
+        <button class="btn-submit "  id="post" >Post now</button>
+        <button class="btn-submit "id="schedule">Schedule Later</button>
+        <button class="btn-submit  "  id="intelligent">Intelligent Posting</button>
+     </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-5">
+    <div class="card card-right"style="margin-top: 0;">
+      <div class="card-body"style="height:710px;">
+        <h6 class="card-title text-white  mb-3"> Uploading </h6>
+        <div class="image-progress" >
+        <label id="image-icon" class="text-white"><img src="img/image.svg"></label>
+  <div class="progress">
+  <div class="progress-bar bg-info" role="progressbar" style="width: 75%" aria-valuenow="" aria-valuemin="0" aria-valuemax="100"></div>
+  
+</div>
+
+      
+      </div>
+
+      <button class="btn-submit " id="edit">Edit File</button>
+    </div>
+  </div>
+</div>
+	</div>
+		
+		</body>
+	</html>

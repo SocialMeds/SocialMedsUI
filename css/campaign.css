@@ -1,0 +1,170 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	height: 100vh;
+
+	background-color:slategray;
+
+	font-family: 'Avenir';
+
+	box-sizing: border-box;
+	
+}
+
+
+.container2{
+	height: 720px;
+	color: #FFFFFF;
+	opacity: 0.80;	
+
+
+}
+.cd-left{
+	margin-left:0px;
+
+
+
+	background: #19181E 0% 0% no-repeat;
+	
+border-radius: 10px;
+
+
+
+}
+
+input[type=text]{
+	width: 80%;
+	height: 40px;
+	border: none;
+	margin-bottom: 15px;
+	color: Gray;
+	border-radius: 4px;
+
+}
+input[type=date]{
+	width: 80%;
+	height: 40px;
+	border: none;
+	margin-bottom: 15px;
+	color: Gray;
+	border-radius: 4px;
+
+}
+
+
+  .bootstrap-tagsinput{
+ 
+  	height: 50px;
+            width:100%;
+            background-color:#19181E ;
+            border: 1px solid gray;
+        }
+        .label-info{
+            background-color:black;
+            color: black;
+
+        }
+        .label {
+            display: inline-block;
+            padding: .25em .4em;
+            font-size: 75%;
+            font-weight: 700;
+            line-height: 1;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: baseline;
+            border-radius: 50px;
+            transition: color .15s ease-in-out,background-color .15s ease-in-out,
+            border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        }
+        .tag-input button{
+
+
+
+        	background-image:url("add-white.svg");
+        	background-repeat: no-repeat;
+        	background-color: #19181E;
+        	border: none;
+        	background-size: cover;
+        	height: 40px;
+        	width: 40px;
+        }
+
+form{
+	margin-left: 10px;
+	width: 100%;
+	height: 100%;
+
+}
+.date{
+	display: inline-block;
+}
+.date label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+.date input,label {
+    margin: .4rem 0;
+}
+p{
+	opacity: 0.75;
+}
+.buttons input[type="reset"]{
+
+
+
+width: 120px;
+height: 40px;
+background: #006F74 0% 0% no-repeat padding-box;
+border-radius: 50px;
+opacity: 1;
+border: none;
+color: #ffffff;
+margin-right: 20px;
+
+}
+.buttons input[type="submit"]{
+	width: 120px;
+height: 40px;
+background: #1AA5AB 0% 0% no-repeat padding-box;
+border-radius: 50px;
+opacity: 1;
+border: none;
+color: #ffffff;
+
+}
+
+.cd-right{
+		background: #19181E 0% 0% no-repeat;
+border-radius: 10px;
+margin-left:0;
+width: 100%;
+
+height: 720px;
+}
+.cd-right .card-body{
+	width: 100%;
+}
+.label{
+	font-size: 16px;
+	margin-left: 5px;
+	opacity: 0.75;
+	font-family: avenir;
+}
+
+./*form2{
+	height: 100%;
+}*/
+
+
+
+
+
+
+
+
+
