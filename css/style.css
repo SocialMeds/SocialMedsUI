@@ -162,6 +162,15 @@ input[type="email"]{
 
 
 }
+.submit_btn{
+	background-color: #0091A3;
+	border: 1px solid #BABABA;
+	outline: none;
+	box-sizing: border-box;
+	border-radius: 4px;
+	width: 90%;
+	color:white;
+}
 input[type="password"]{
 
 
